@@ -1,11 +1,10 @@
 /*
-* Parses a jar file for files that end in .class.
 *
 * Name: AppSecTest Programming Challenge v1.0
 * Author: Dominic Lewis
 * Created: 06/11/2016
 * Revised: 17/11/2016 
-* Description: Displays the names of all classes found in the provided file "classes.dex"
+* Description: Displays the names of all classes found in a provided JAR File. 
 * Notes: 
  */
 
