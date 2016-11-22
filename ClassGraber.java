@@ -1,7 +1,7 @@
 /*
 * Parses a jar file for files that end in .class.
 *
-* Name:  AppSecTest Programming Challenge v1.0
+* Name: AppSecTest Programming Challenge v1.0
 * Author: Dominic Lewis
 * Created: 06/11/2016
 * Revised: 17/11/2016 
@@ -25,7 +25,7 @@ public class JarClassParser {
         //Create scanner instance for the System.in
         Scanner scan = new Scanner(System.in);
         //Get the filePath for the JAR
-        System.out.printf("\nPlease enter the full file path of the Classes Jar File.\nThe format should be similiar to C:\\\\Users\\\\Default\\\\Desktop\\\\classes-dex2jar.jar\nEnter Here: ");
+        System.out.printf("\nPlease enter the full file path of the Classes Jar File.\nThe format should be similiar to C:\\Users\\Default\\Desktop\\classes-dex2jar.jar\nEnter Here: ");
         String jarPath = scan.nextLine();
         
         //creates an instance of Jarfile from the classes jar name "classJarFile"
